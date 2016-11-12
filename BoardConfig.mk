@@ -199,5 +199,8 @@ WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Bootanimation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # Inherit from the proprietary version
 include vendor/xiaomi/rova/BoardConfigVendor.mk
