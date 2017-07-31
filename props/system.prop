@@ -87,3 +87,4 @@ arm64.memtag.process.system_server=off
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true
+debug.hwui.use_buffer_age=false
