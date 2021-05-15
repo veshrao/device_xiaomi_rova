@@ -129,7 +129,6 @@ TARGET_BOARD_PLATFORM := msm8937
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/sys/dev/dt2w"
-TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
