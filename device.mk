@@ -133,6 +133,9 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.display.mapper@2.0.vendor 
+
 # DPM
 PRODUCT_PACKAGES += \
     libshim_dpmframework
