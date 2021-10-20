@@ -57,3 +57,6 @@
 
 # FPS Info
 /sys/devices/virtual/graphics/fb0/measured_fps  u:object_r:sysfs_fps:s0
+
+# Executables
+/(vendor|system/vendor)/bin/wcnss_service_daisy		u:object_r:wcnss_service_exec:s0
