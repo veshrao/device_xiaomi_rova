@@ -1,2 +1,6 @@
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
+# PPUI Stuff
+ro.pixelplusui.maintainer=veshrao
+org.pixelplusui.device=Redmi 4A/5A

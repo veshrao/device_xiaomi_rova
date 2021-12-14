@@ -12,10 +12,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit common PixelPlusUi configurations
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# PixelPlusUI Flags
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := false
-TARGET_INCLUDE_STOCK_ARCORE := true
+# PixelPlus-UI Flags/Props
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ACORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Inherit from rova device
