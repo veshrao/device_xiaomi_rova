@@ -83,6 +83,9 @@ PRODUCT_PACKAGES += \
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+# APEX
+OVERRIDE_PRODUCT_COMPRESSED_APEX := false
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
