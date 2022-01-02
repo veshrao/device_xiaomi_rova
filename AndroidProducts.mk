@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_rova.mk
+    $(LOCAL_DIR)/radiant_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_rova-user \
-    aosp_rova-userdebug \
-    aosp_rova-eng
+    radiant_rova-user \
+    radiant_rova-userdebug \
+    radiant_rova-eng
