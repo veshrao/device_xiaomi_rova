@@ -10,3 +10,6 @@ vidc.enc.dcvs.extra-buff-count	u:object_r:camera_prop:s0
 
 # Xiaomi
 ro.vendor.xiaomi.	u:object_r:vendor_xiaomi_prop:s0
+
+# Baseband
+gsm.version.baseband            u:object_r:baseband_prop:s0
