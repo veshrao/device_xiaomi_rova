@@ -415,6 +415,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# DeviceDoze
+PRODUCT_PACKAGES += \
+    DeviceDoze    
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
