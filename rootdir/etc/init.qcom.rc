@@ -405,7 +405,6 @@ on property:persist.sys.radio.mobile_data_swap=1
 
 on property:vold.decrypt=trigger_restart_framework
     start config_bt_addr
-    restart vendor.camera-provider-2-4
     restart vendor.audio-hal
     start wcnss-service
 
