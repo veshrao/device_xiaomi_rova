@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/radiant_rova.mk
+    $(LOCAL_DIR)/xdroid_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    radiant_rova-user \
-    radiant_rova-userdebug \
-    radiant_rova-eng
+    xdroid_rova-user \
+    xdroid_rova-userdebug \
+    xdroid_rova-eng
