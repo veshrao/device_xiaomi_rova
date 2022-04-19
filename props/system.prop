@@ -69,9 +69,6 @@ ro.lmk.thrashing_limit_decay=60
 # Zygote Preforking
 persist.device.config.runtime_native.usap_pool_enabled=true
 
-# Pre-Rendering
-ro.vendor.perf.scroll_opt=true
-
 # Memory Management
 ro.sys.fw.bservice_enable=true 
 ro.sys.fw.bservice_limit=5 
