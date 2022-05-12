@@ -57,7 +57,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
 	$(LOCAL_PATH)/audio/audio_output_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_output_policy.conf \
-        $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
+    $(LOCAL_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
 	$(LOCAL_PATH)/audio/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
 	$(LOCAL_PATH)/audio/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
 	$(LOCAL_PATH)/audio/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
@@ -360,7 +360,7 @@ PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh
 
-# Remove unwanted packages
+# Remove Packages
 PRODUCT_PACKAGES += \
     RemovePkgs
 
@@ -385,8 +385,7 @@ PRODUCT_PACKAGES += \
     init.baseband.sh \
     init.xiaomi.device.rc \
     init.xiaomi.device.sh \
-    init.xiaomi.series.rc \
-    init.performance_level.rc
+    init.xiaomi.series.rc 
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -504,14 +503,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
-
-# for the sake of a12
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
-
-PRODUCT_SOONG_NAMESPACES += \
-    hardware/qcom-caf/msm8996
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/rova/rova-vendor.mk)
