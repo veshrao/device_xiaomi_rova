@@ -47,9 +47,6 @@ persist.vendor.btstack.enable.splita2dp=false
 qcom.bluetooth.soc=smd
 ro.qualcomm.bt.hci_transport=smd
 
-# Bpf
-ro.kernel.ebpf.supported=1
-
 # Camera
 camera.display.lmax=1280x720
 camera.display.umax=1920x1080
@@ -98,10 +95,7 @@ vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_rotator_downscale=1
 
 # DRM
-drm.service.enabled=true
-
-# Fingerprint
-persist.qfp=false
+drm.service.enabled=true    
 
 # FM
 ro.fm.transmitter=false
