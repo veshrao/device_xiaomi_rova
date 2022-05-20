@@ -1,4 +1,1 @@
 set_prop(netmgrd, vendor_xlat_prop)
-set_prop(netmgrd, vendor_default_prop)
-
-allow netmgrd system_file:file { execute execute_no_trans getattr open read };
