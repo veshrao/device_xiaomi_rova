@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xdroid/config/common.mk)
 
 # xdroid flags/props
 XDROID_BOOT := 720
+XDROID_MAINTAINER := veshrao
 
 # Inherit from rova device
 $(call inherit-product, device/xiaomi/rova/device.mk)
