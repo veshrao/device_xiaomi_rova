@@ -429,12 +429,8 @@ WITH_DEXPREOPT_DEBUG_INFO := false
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Launcher3QuickStep \
     Settings \
-    SystemUI
-
-# DeviceDoze
-PRODUCT_PACKAGES += \
-    DeviceDoze    
-
+    SystemUI 
+    
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
