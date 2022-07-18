@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xdroid_rova.mk
+    $(LOCAL_DIR)/fuse_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    xdroid_rova-user \
-    xdroid_rova-userdebug \
-    xdroid_rova-eng
+    fuse_rova-user \
+    fuse_rova-userdebug \
+    fuse_rova-eng
